@@ -1,0 +1,101 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+    color:#405D72;
+
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 50px;
+    padding: 20px;
+    
+}
+.submit1{
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+legend {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0069d9;
+}
+
+
+@media (max-width: 768px) {
+    .register {
+        padding: 10px; 
+    }
+
+    fieldset {
+        margin-bottom: 10px;
+    }
+}
+
+.login{
+    text-align: center;
+}
+a{
+    color: #405D72;
+    font-weight: bold;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: aliceblue;
+}
+
+
+
+
+.userName, .password {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+#login{
+    font-weight: bolder;
+}
+#lg{
+    margin-top: 15px;
+}

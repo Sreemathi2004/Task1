@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Registration Page</title>
+</head>
+<body>
+    <div class="register">
+        <form action="" id="registrationForm">
+            <fieldset>
+                <legend id="legend">Registration</legend>
+
+                <div class="name">
+                    <fieldset>
+                        <legend id="Name">Name*</legend>
+                        <input type="text" id="firstName" placeholder="FirstName" >
+                        <input type="text" id="lastName" placeholder="LastName" >
+                    </fieldset>
+                </div>
+
+                <div class="gender">
+                    <fieldset>
+                        <legend id="Name">Gender*</legend>
+                        <input type="radio" name="gender" id="female" >
+                        <label for="female">Female</label>
+                        <br>
+                        <input type="radio" name="gender" id="male" >
+                        <label for="male">Male</label>
+                        <br>
+                        <input type="radio" name="gender" id="other" >
+                        <label for="other">Other</label>
+                    </fieldset>
+                </div>
+
+                <div class="dateOfBirth">
+                    <fieldset>
+                        <legend id="Name">Date-Of-Birth*</legend>
+                        <input type="date" id="dob" name="dob" placeholder="DateOfBirth" >
+                    </fieldset>
+                </div>
+
+                <div class="emailId">
+                    <fieldset>
+                        <legend id="Name">Email-address*</legend>
+                        <input type="email" id="email" >
+                    </fieldset>
+                </div>
+
+                <div class="address">
+                    <fieldset>
+                        <legend id="Name">Address*</legend>
+                        <textarea rows="8" cols="30" id="address"></textarea>
+                    </fieldset>
+                </div>
+
+                <div class="userName">
+                    <fieldset>
+                        <legend id="Name">UserName*</legend>
+                        <input type="text" id="user" >
+                    </fieldset>
+                </div>
+
+                <div class="password">
+                    <fieldset>
+                        <legend id="Name">Password*</legend>
+                        <input type="password" name="password" id="password" >
+                    </fieldset>
+                </div>
+
+                <br>
+                <div class="submit1">
+                    <input type="submit" value="Register" >
+                    <input type="reset" value="Reset">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div class="login">
+        <a href="index1.html">Login</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
